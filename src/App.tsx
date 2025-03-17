@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { motion } from 'framer-motion';
 import { Github, Linkedin, Mail, Download, Code2, ChevronDown } from 'lucide-react';
 import { ThemeToggle } from './components/ThemeToggle';
@@ -8,21 +8,21 @@ import { ProjectsSection } from './components/ProjectsSection';
 const socialLinks = [
   {
     icon: Github,
-    href: "https://github.com/yourusername",
+    href: "https://github.com/ayoub00400",
     label: "GitHub",
     color: "hover:text-[#333] dark:hover:text-white",
     delay: 0
   },
   {
     icon: Linkedin,
-    href: "https://linkedin.com/in/yourusername",
+    href: "https://www.linkedin.com/in/ayoub-larbaoui-/",
     label: "LinkedIn",
     color: "hover:text-[#0077b5] dark:hover:text-[#0077b5]",
     delay: 0.1
   },
   {
     icon: Mail,
-    href: "mailto:mohsen@ranwip.com",
+    href: "mailto:ayoublarbaoui004@gmail.com",
     label: "Email",
     color: "hover:text-[#ea4335] dark:hover:text-[#ea4335]",
     delay: 0.2
@@ -319,7 +319,7 @@ function App() {
         <motion.a
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
-          href="/path-to-your-resume.pdf"
+          href="https://drive.google.com/file/d/1JZofHeMtZjxRuCP7ZA7Ibxm3b6D8F9Nt/view?usp=sharing"
           className="flex items-center bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-3 rounded-full shadow-lg hover:shadow-xl transition-shadow relative group"
         >
           <motion.span
